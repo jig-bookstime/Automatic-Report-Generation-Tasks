@@ -1,0 +1,25 @@
+{
+  "name": "automatic-report-generation-tasks",
+  "version": "1.0.0",
+  "description": "This deployment will handle all automations related to tasks/tickets that deal with generating reports periodically to be shared with stakeholders.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jig-bookstime/Automatic-Report-Generation-Tasks.git"
+  },
+  "author": "Jigyansu Nanda <jigyansu.nanda@bookstime.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jig-bookstime/Automatic-Report-Generation-Tasks/issues"
+  },
+  "homepage": "https://github.com/jig-bookstime/Automatic-Report-Generation-Tasks#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
